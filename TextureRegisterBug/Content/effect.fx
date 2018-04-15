@@ -21,7 +21,7 @@ struct VertexShaderOutput
 };
 
 // this binds the texture to register 1 for DesktopGL
-Texture2D Texture : register(t0);
+Texture2D Texture;
 sampler Sampler : register(s0);
 
 
